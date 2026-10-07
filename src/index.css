@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ember-bg: #0f0d0b;
+  --color-ember-surface: #1a1612;
+  --color-ember-surface-2: #221e18;
+  --color-ember-border: #2d2418;
+  --color-ember-orange: #f97316;
+  --color-ember-glow: #fb923c;
+  --color-ember-text: #f5f0eb;
+  --color-ember-muted: #8b7355;
+  --color-ember-success: #86efac;
+  --color-ember-error: #fca5a5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0f0d0b;
+  color: #f5f0eb;
+  font-family: system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
